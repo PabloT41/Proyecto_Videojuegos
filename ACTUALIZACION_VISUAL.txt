@@ -1,0 +1,19 @@
+ACTUALIZACIÓN VISUAL
+Minero: casco con lámpara, barba, mochila, guantes, peto, botas y pico.
+Animación al extraer: seis poses y ciclo de 0,48 segundos.
+Anticipación, elevación, bajada, contacto, continuación del golpe y recuperación.
+Los clics rápidos añaden como máximo dos ciclos pendientes; la producción por clic sigue siendo inmediata.
+Pausa, ayuda y pantallas de resultado detienen el temporizador.
+Impacto con partículas y reacción del cristal.
+Mina: cámara de piedra vista en perspectiva elevada 2D, pedestal, círculo de runas violeta, gemas turquesas, velas, rocas y vegetación.
+Todas las figuras se dibujan sobre una cuadrícula de píxeles con filtrado Point.
+Los PNG de los seis fotogramas están en Assets/PixelMiner/Art/Minero_Picar_0.png a Minero_Picar_5.png.
+La animación utiliza esos mismos dibujos procedurales, sin depender de un Animator externo.
+
+JEFE Y REPOSO
+Guardián Legendario redibujado como gólem ancho de piedra, con rocas irregulares, silueta asimétrica, rostro violeta y ojos magenta.
+Se conserva el guardián normal de 20 PV; el jefe final mantiene sus 100 PV y las mismas reglas.
+La respiración del minero alterna dos poses del torso, hombros y cabeza. Piernas, botas y sombra permanecen idénticas y el rectángulo del personaje no cambia de posición.
+La flotación del cristal es independiente de esta animación.
+
+Referencia ataque.mp4: guardián normal con preparación, elevación de ambos brazos por encima de la cabeza, golpe descendente, arco blanco y turquesa, impacto contra el suelo y recuperación. Se eliminó el brazo extensible. El daño mantiene el mismo intervalo y coincide con el contacto.

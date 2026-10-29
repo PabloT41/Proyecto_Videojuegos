@@ -1,0 +1,32 @@
+# Unity generated and local files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/.vs/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.pidb
+*.pdb
+*.user
+*.log
+
+# Exported players, build outputs and generated reports
+/[Bb]uild/
+/[Bb]uilds/
+/Web/
+/WebGL/
+/Data/
+/QA/
+*.zip
+
+# Web-only export profile
+/Assets/Settings/Build Profiles/
+/Assets/Settings/Build Profiles.meta
+
+# Temporary preparation probe
+/Assets/PixelMiner/Scripts/probe.txt
+/Assets/PixelMiner/Scripts/probe.txt.meta
